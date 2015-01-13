@@ -111,16 +111,10 @@ WIDGET.Dialog = typeof WIDGET.Dialog != 'undefined' && WIDGET.Dialog ? WIDGET.Di
     var link  = document.createElement('link');
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'http://www.multitest.ua/widget/css/all.css';
+    link.href = 'all.css';
     link.media = 'all';
     head.appendChild(link);
 
-    var link  = document.createElement('link');
-    link.rel  = 'stylesheet';
-    link.type = 'text/css';
-    link.href = 'http://www.multitest.ua/widget/css/all.css';
-    link.media = 'all';
-    head.appendChild(link);
 
     var dialog = document.createElement('div');
         
